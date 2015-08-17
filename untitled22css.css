@@ -1,0 +1,220 @@
+#page1{
+	background-color:black;
+}
+
+.help{
+	background-color: #FEFFFF;
+}
+
+#header{
+		background-color:#1F7373;
+		color:#FEFFFF;
+		text-align:center;
+		padding:5px; 
+		
+	}
+
+#cassie{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 30px;
+	background-color: #1F7373;
+}
+#cassiepara{
+	padding-top: 0px;
+}
+
+#ashley{
+	padding-top: 50px;
+	background-color: #1F7373;
+	padding-right: 25px;
+
+}
+
+#gaby{
+	padding-top: 50px;
+	background-color: #1F7373;
+}
+
+.column-left{
+	padding-left: 800px;
+}
+
+	/*#page1{
+		background-image: url("stars.gif");
+	}*/
+	/* this selector could be div#nav instead of nav depending on which tag you wrapped the ul in */
+	/*#menu {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+	}*/
+	#main{
+		padding-top: 75px;
+	
+	}
+	
+	.column-right{ 
+		padding-top: 50px;
+		text-align: center;
+		float: right;
+		width:35%;
+	
+	}
+
+	.column-right22{
+		float: right;
+		text-align: center;
+		width: 20%;
+
+	}
+
+	/*.column-right{ 
+		float: right;
+		width: 33%; 
+		text-align: center;
+	
+	}*/
+
+	/*#homepagetext{
+		padding-top: -10px;
+	}*/
+
+	#everyone{
+		padding-top: 50px;
+		padding-right: 50px;
+
+
+	}
+
+	#Ashley{
+		padding-top: 100px;
+		p
+	}
+
+	.column-center{
+		 /*display: inline-block;*/
+		 text-align: center;
+		 float: left;
+		 width:20%;
+	}
+
+	.column-center12{
+		 /*display: inline-block;*/
+		 text-align: center;
+		 float: left;
+
+	}
+	#menu {
+		display:table;
+		width:100%;
+		border-collapse:collapse;
+		border:none;
+		height: 35px;
+		font-size: 16px;
+		font-family:Geneva, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		background-color:#021414;
+		border-radius: 8px;
+		z-index:99;
+	}
+	
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1em; 
+	color: #000000;
+}
+ 
+li a {
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+}
+ 
+li a:hover {
+    color: #000000;
+}	
+
+li a:hover {
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.left a:hover {
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}	
+.left a:hover {
+     
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+ }
+
+ #giver{
+	
+	font-style: italic;
+	color: white;
+	/*width: 1000px;*/
+    padding: 20px;
+    border: 100px;
+    margin: 70px;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 3em;
+	
+}	
+
+#text1{
+	text-align: left;
+	font-size: 25px;
+	color: black;
+}
+#text2{
+	text-align: center;
+	font-size: 30px;	
+	color: #FF1493;
+}
+#text3{
+	text-align: left;
+	font-size: 25px;
+	color: black;
+}
+#text4{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
