@@ -16,7 +16,7 @@ function getResult(form)
 	var answers = [];
 	var currElt;
 	var selection;
-	var output;
+	var output = "";
 	for (i=0; i<numQues; i++) 
 	{
 		currElt = i*numChoi;
@@ -31,6 +31,14 @@ function getResult(form)
 		}
 	}
 	console.log(answers);
+	if (answers[7] == "rom")
+	{
+		output = output + "Romantic, ";
+	}
+	if (answers[9] == "yes")
+	{
+		output = output + "Intellectual, ";
+	}
 	if (answers[0] == "large" || answers[1]== "dinner" || answers[3] == "team") 
 	{
 		//outgoing
@@ -47,7 +55,7 @@ function getResult(form)
 	}
 	if (answers[6] == "rules" || answers[8] == "neat") 
 	{
-		output = output + "Organized, Practical, Likes structure"; 
+		output = output + "Organized, Practical, Likes structure, "; 
 	}
 	if (answers[5] == "DIY" || answers[7]== "museum") 
 	{
@@ -55,7 +63,7 @@ function getResult(form)
 	}
 	if (answers[1] == "walk" || answers[1]== "dinner" || answers[4]=="act" || answers[7]=="both") 
 	{
-		output = output + "Adventurous, ";
+		output = output + "Adventurous";
 	}
 
 form.solutions.value = output;

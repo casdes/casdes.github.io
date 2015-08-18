@@ -28,7 +28,7 @@
 	color: #000000;
 }
  
-li a {
+.line a {
     color: #000000;
     text-decoration: none;
     float: left;
@@ -36,11 +36,11 @@ li a {
     padding: 12px;
 }
  
-li a:hover {
+.line a:hover {
     color: #000000;
 }	
 
-li a:hover {
+.line a:hover {
     -webkit-transform: rotate(-10deg) scale(1.2);
     -moz-transform: rotate(-10deg) scale(1.2);
     -o-transform: rotate(-10deg) scale(1.2);
