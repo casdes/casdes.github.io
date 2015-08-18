@@ -34,7 +34,7 @@ function getResult(form)
 	if (answers[0] == "large" && answers[1]== "dinner" && answers[3] == "team") 
 	{
 		//outgoing
-		output =  "Very outgoing,Extrovert, ";
+		output =  "Very outgoing, Extroverted, ";
 		
 	}
 	if (answers[0] == "large" && answers[3] == "team") 

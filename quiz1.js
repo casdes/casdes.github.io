@@ -34,12 +34,12 @@ function getResult(form)
 	if (answers[0] == "large" || answers[1]== "dinner" || answers[3] == "team") 
 	{
 		//outgoing
-		output = output + "Very outgoing,";
+		output = output + "Very outgoing, ";
 	}
 	if (answers[0] == "few" || answers[1]== "stay" || answers[3] == "alone") 
 	{
 		//shy
-		output = output + "Shy ";
+		output = output + "Shy, ";
 	}
 	if (answers[4] == "stressed") 
 	{
